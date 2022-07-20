@@ -7,7 +7,7 @@ import java.time.Duration;
 
 public class WebPage {
     private static WebDriver driver;
-    static String urlDriverChrome  = System.getProperty("user.dir") + "\\src\\test\\resources\\driver\\chromedriver.exe";
+    static String urlDriverChrome  = System.getProperty("user.dir") + "/src/test/resources/driver/chromedriver.exe";
 
     public static WebDriver createChrome() {
 
