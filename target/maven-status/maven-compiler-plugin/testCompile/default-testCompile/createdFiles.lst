@@ -1,0 +1,10 @@
+com\pages\AcessaEbookDaLivrariaPage.class
+com\runner\AcessarEbookDaLivrariaRunnerTest.class
+com\pages\CadastroComSenhaNemericaPage.class
+com\pages\WebPage.class
+com\pages\LoginPage.class
+com\pages\CadastroComSucessoPage.class
+com\steps\CadastroComSenhaNemericaSteps.class
+com\steps\AcessaEbookDaLivrariaSteps.class
+com\steps\CadastroComSucessoSteps.class
+com\runner\CadastroRunnerTest.class
