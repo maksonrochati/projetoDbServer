@@ -19,11 +19,5 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn clean test
-      continue-on-error: true
       
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4.1.7
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: test/resources/reports/html
+   
