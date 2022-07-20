@@ -17,7 +17,6 @@ public class ListarContatoApiSteps {
     @Dado("que eu tenha um endpoint valido para lista o usuario")
     public void que_eu_tenha_um_endpoint_valido_para_lista_o_usuario() {
         RestAssured.baseURI="https://api-de-tarefas.herokuapp.com/";
-        //RestAssured.basePath="/contacts";
     }
     @Quando("enviar a requisicao ao servidor")
     public void enviar_a_requisicao_ao_servidor() {
