@@ -20,16 +20,14 @@ public class DeletarContatoApiSteps {
     public void eu_enviar_a_requisicao_ao_servidor() {
         response = given()
                 .when()
-                .get("contacts/1885")
+                    .delete("contacts/2496")
                 .then()
-                .extract()
-                .response();
+                    .extract()
+                        .response();
     }
     @Entao("devo validar dados e status code de resposta")
     public void devo_validar_dados_e_status_code_de_resposta() {
-        String dataType = response.path("data.type");
-        Assert.assertEquals(response.statusCode(), 200);
-        Assert.assertEquals(dataType, "contacts");
+        Assert.assertEquals(response.statusCode(), 204);
     }
 
 }

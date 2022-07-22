@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.runner.ListarContatoApiRunnerTest" time="3.647" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.runner.ContatosApiRunnerTest" time="7.305" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
     <property name="java.vm.version" value="25.241-b07"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\MaksonTi\Desktop\projetoDb"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\MaksonTi\Desktop\projetoDbServerPasta\projetoDbServerProcesso"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\MaksonTi\Desktop\projetoDb"/>
+    <property name="user.dir" value="C:\Users\MaksonTi\Desktop\projetoDbServerPasta\projetoDbServerProcesso"/>
     <property name="java.runtime.version" value="1.8.0_241-b07"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="D:\Programas\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_241\bin;D:\Programas\apache-maven-3.6.3\bin;C:\Users\MaksonTi\AppData\Local\Android\Sdk\emulator;C:\Users\MaksonTi\AppData\Local\Android\Sdk\platform-tools;C:\Users\MaksonTi\AppData\Local\Android\Sdk\tools;C:\Users\MaksonTi\AppData\Local\Android\Sdk\tools\bin;C:\Users\MaksonTi\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\MaksonTi\.m2\repository\allure-2.7.0\bin;C:\src\flutter\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MaksonTi\scoop\shims;C:\Users\MaksonTi\AppData\Local\Microsoft\WindowsApps;C:\Users\MaksonTi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MaksonTi\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin;C:\Users\MaksonTi\.dotnet\tools;C:\Users\MaksonTi\AppData\Roaming\nvm;C:\Program Files\nodejs;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_241\bin;D:\Programas\apache-maven-3.6.3\bin;C:\Users\MaksonTi\AppData\Local\Android\Sdk\emulator;C:\Users\MaksonTi\AppData\Local\Android\Sdk\platform-tools;C:\Users\MaksonTi\AppData\Local\Android\Sdk\tools;C:\Users\MaksonTi\AppData\Local\Android\Sdk\tools\bin;C:\Users\MaksonTi\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\MaksonTi\.m2\repository\allure-2.7.0\bin;C:\src\flutter\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\MaksonTi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MaksonTi\scoop\shims;C:\Users\MaksonTi\AppData\Local\Microsoft\WindowsApps;C:\Users\MaksonTi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MaksonTi\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin;C:\Users\MaksonTi\.dotnet\tools;C:\Users\MaksonTi\AppData\Roaming\nvm;C:\Program Files\nodejs;."/>
     <property name="maven.conf" value="D:\Programas\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="pt"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,5 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Contatos" name="Listar contato com sucesso" time="3.647"/>
+  <testcase classname="Contatos" name="Listar contato com sucesso" time="4.414"/>
+  <testcase classname="Contatos" name="Criar contato com sucesso" time="1"/>
+  <testcase classname="Contatos" name="Editar contato com sucesso" time="0.925"/>
+  <testcase classname="Contatos" name="Deletar contato com sucesso" time="0.966"/>
 </testsuite>

@@ -1,10 +1,15 @@
+com\steps\ListarContatoApiSteps.class
 com\pages\AcessaEbookDaLivrariaPage.class
 com\runner\AcessarEbookDaLivrariaRunnerTest.class
+com\steps\DeletarContatoApiSteps.class
+com\runner\ContatosApiRunnerTest.class
 com\pages\CadastroComSenhaNemericaPage.class
 com\pages\WebPage.class
 com\pages\LoginPage.class
 com\pages\CadastroComSucessoPage.class
 com\steps\CadastroComSenhaNemericaSteps.class
 com\steps\AcessaEbookDaLivrariaSteps.class
+com\steps\CriarContatoApiSteps.class
 com\steps\CadastroComSucessoSteps.class
 com\runner\CadastroRunnerTest.class
+com\steps\EditarContatoApiSteps.class
