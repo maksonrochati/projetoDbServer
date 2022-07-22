@@ -74,7 +74,7 @@ Local para download: https://chromedriver.chromium.org/downloads.
 
 ### Report
 No report das execuções foi utilizado o do cucumber.io onde ao final de cada execução ele gera uma View de report passandos os dados da execução.
-Dentrro
+Dentro do arquivo `cucumber.properties` está a configuração do report.
 Exemplo de report:
 `
  https://reports.cucumber.io/reports/677da11e-9a3f-4ff2-962e-130f3b922f10
