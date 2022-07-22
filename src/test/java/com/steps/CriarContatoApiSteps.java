@@ -25,7 +25,7 @@ public class CriarContatoApiSteps {
                 .body("{\n" +
                         "\t\"name\": \"test5\",\n" +
                         "\t\"last_name\": \"test\",\n" +
-                        "\t\"email\": \"test5987@gmail.com\",\n" +
+                        "\t\"email\": \"testUsuario@gmail.com\",\n" +
                         "\t\"age\": \"28\",\n" +
                         "\t\"phone\": \"99999999999\",\n" +
                         "\t\"address\": \"Rua dois\",\n" +

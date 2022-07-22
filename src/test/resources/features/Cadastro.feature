@@ -15,7 +15,7 @@ Funcionalidade: Realizar Cadastro Sem Sucesso
 
     Exemplos:
       |primeiroNome|sobrenome|nomeUsuario|senha|
-      |usuario     |test     |usuarioTest1  |12345|
+      |usuario     |test     |usuarioTest|12345|
 
 
   Esquema do Cenario: Cadastrar um novo usuário com sucesso
@@ -34,5 +34,5 @@ Funcionalidade: Realizar Cadastro Sem Sucesso
 
     Exemplos:
       |primeiroNome|sobrenome|nomeUsuario|senha   |
-      |usuario     |test     |usuarioTest1  |Usu@rio1|
+      |usuario     |test     |testUsuario|Usu@rio1|
 
